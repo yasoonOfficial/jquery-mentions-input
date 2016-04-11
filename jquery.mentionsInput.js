@@ -231,7 +231,7 @@
 
         //Gets the actual value of the text area without white spaces from the beginning and end of the value
         function getInputBoxValue() {
-            return $.trim(elmInputBox.val());
+            return elmInputBox.val();
         }
 
         // This is taken straight from live (as of Sep 2012) GitHub code. The
